@@ -124,27 +124,6 @@
     <None Include="Resources\maketoolpath.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\Images\alongCurve.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="bin\Images\alongCurves.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="bin\Images\info_sub.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="bin\Images\innerAlongCurve.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="bin\Images\innerBasePlane.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="bin\Images\innerModel.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="bin\Images\InnerTool.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\alongCurves.png" />
   </ItemGroup>
   <ItemGroup>
