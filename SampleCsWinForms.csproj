@@ -144,6 +144,27 @@
   <ItemGroup>
     <None Include="bin\Images\InnerTool.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alongCurves.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info_sub.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\innerAlongCurve.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\innerBasePlane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\innerModel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InnerTool.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

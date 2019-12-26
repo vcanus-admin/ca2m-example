@@ -54,16 +54,26 @@ namespace SampleCsWinForms.Forms
             String directoryPath = currentPath.Replace("bin", "resources\\");
 
             ImageList imgList = new ImageList();
-            imgList.Images.Add(Bitmap.FromFile(directoryPath + "workpiece.png"));
-            imgList.Images.Add(Bitmap.FromFile(directoryPath + "basePlanes.png"));
-            imgList.Images.Add(Bitmap.FromFile(directoryPath + "innerBasePlane.png"));
-            imgList.Images.Add(Bitmap.FromFile(directoryPath + "alongCurves.png"));
-            imgList.Images.Add(Bitmap.FromFile(directoryPath + "innerAlongCurve.png"));
-            imgList.Images.Add(Bitmap.FromFile(directoryPath + "tools.png"));
-            imgList.Images.Add(Bitmap.FromFile(directoryPath + "InnerTool.png"));
-            imgList.Images.Add(Bitmap.FromFile(directoryPath + "toolpath.png"));
-            imgList.Images.Add(Bitmap.FromFile(directoryPath + "maketoolpath(toolpath).png"));
-            imgList.Images.Add(Bitmap.FromFile(directoryPath + "alongCurve.png"));
+            //imgList.Images.Add(Bitmap.FromFile(directoryPath + "workpiece.png"));
+            //imgList.Images.Add(Bitmap.FromFile(directoryPath + "basePlanes.png"));
+            //imgList.Images.Add(Bitmap.FromFile(directoryPath + "innerBasePlane.png"));
+            //imgList.Images.Add(Bitmap.FromFile(directoryPath + "alongCurves.png"));
+            //imgList.Images.Add(Bitmap.FromFile(directoryPath + "innerAlongCurve.png"));
+            //imgList.Images.Add(Bitmap.FromFile(directoryPath + "tools.png"));
+            //imgList.Images.Add(Bitmap.FromFile(directoryPath + "InnerTool.png"));
+            //imgList.Images.Add(Bitmap.FromFile(directoryPath + "toolpath.png"));
+            //imgList.Images.Add(Bitmap.FromFile(directoryPath + "maketoolpath(toolpath).png"));
+            //imgList.Images.Add(Bitmap.FromFile(directoryPath + "alongCurve.png"));
+            imgList.Images.Add(new Bitmap(SampleCsWinForms.Properties.Resources.workpiece));
+            imgList.Images.Add(new Bitmap(SampleCsWinForms.Properties.Resources.basePlanes));
+            imgList.Images.Add(new Bitmap(SampleCsWinForms.Properties.Resources.innerBasePlane));
+            imgList.Images.Add(new Bitmap(SampleCsWinForms.Properties.Resources.alongCurves));
+            imgList.Images.Add(new Bitmap(SampleCsWinForms.Properties.Resources.innerAlongCurve));
+            imgList.Images.Add(new Bitmap(SampleCsWinForms.Properties.Resources.tools));
+            imgList.Images.Add(new Bitmap(SampleCsWinForms.Properties.Resources.InnerTool));
+            imgList.Images.Add(new Bitmap(SampleCsWinForms.Properties.Resources.toolpath));
+            imgList.Images.Add(new Bitmap(SampleCsWinForms.Properties.Resources.maketoolpath_toolpath_));
+            imgList.Images.Add(new Bitmap(SampleCsWinForms.Properties.Resources.alongCurve));
             infoPanelTreeView.ImageList = imgList;
 
             TreeNode workPieceNode = new TreeNode("Work Piece", 0, 0);
